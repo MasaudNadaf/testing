@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="78" started-at="2022-05-28T14:12:27 IST" finished-at="2022-05-28T14:12:27 IST">
+    <groups>
+      <group name="allclasstestgroup">
+        <method signature="Smoke.test1()[pri:2, instance:grouping.Smoke@30b8a058]" name="test1" class="grouping.Smoke"/>
+        <method signature="Smoke.test2()[pri:1, instance:grouping.Smoke@30b8a058]" name="test2" class="grouping.Smoke"/>
+        <method signature="Smoke.test3()[pri:3, instance:grouping.Smoke@30b8a058]" name="test3" class="grouping.Smoke"/>
+        <method signature="Smoke.test4()[pri:4, instance:grouping.Smoke@30b8a058]" name="test4" class="grouping.Smoke"/>
+        <method signature="Smoke.test5()[pri:0, instance:grouping.Smoke@30b8a058]" name="test5" class="grouping.Smoke"/>
+      </group> <!-- allclasstestgroup -->
+      <group name="regression">
+        <method signature="Smoke.test3()[pri:3, instance:grouping.Smoke@30b8a058]" name="test3" class="grouping.Smoke"/>
+        <method signature="Smoke.test4()[pri:4, instance:grouping.Smoke@30b8a058]" name="test4" class="grouping.Smoke"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="Smoke.test2()[pri:1, instance:grouping.Smoke@30b8a058]" name="test2" class="grouping.Smoke"/>
+        <method signature="Smoke.test5()[pri:0, instance:grouping.Smoke@30b8a058]" name="test5" class="grouping.Smoke"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="Smoke.test1()[pri:2, instance:grouping.Smoke@30b8a058]" name="test1" class="grouping.Smoke"/>
+        <method signature="Smoke.test2()[pri:1, instance:grouping.Smoke@30b8a058]" name="test2" class="grouping.Smoke"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Test" duration-ms="78" started-at="2022-05-28T14:12:27 IST" finished-at="2022-05-28T14:12:27 IST">
+      <class name="grouping.Smoke">
+        <test-method status="PASS" signature="test5()[pri:0, instance:grouping.Smoke@30b8a058]" name="test5" duration-ms="0" started-at="2022-05-28T14:12:27 IST" finished-at="2022-05-28T14:12:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method status="PASS" signature="test1()[pri:2, instance:grouping.Smoke@30b8a058]" name="test1" duration-ms="0" started-at="2022-05-28T14:12:27 IST" finished-at="2022-05-28T14:12:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test3()[pri:3, instance:grouping.Smoke@30b8a058]" name="test3" duration-ms="16" started-at="2022-05-28T14:12:27 IST" finished-at="2022-05-28T14:12:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="test2()[pri:1, instance:grouping.Smoke@30b8a058]" name="test2" duration-ms="0" started-at="2022-05-28T14:12:27 IST" finished-at="2022-05-28T14:12:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test4()[pri:4, instance:grouping.Smoke@30b8a058]" name="test4" duration-ms="0" started-at="2022-05-28T14:12:27 IST" finished-at="2022-05-28T14:12:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+      </class> <!-- grouping.Smoke -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
