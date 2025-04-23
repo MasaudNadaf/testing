@@ -49,9 +49,9 @@ public class logintest extends Baseclass {
 @DataProvider(name="logindata")
   public Object[][] getdata()
   {
-	 return new Object[][] {{"HX2837","Masaud@1995","921818"},
-							{"HX2837","Masaud@1995","920000"},
-							{"HX2837","Masaud@1900","922222"}
+	 return new Object[][] {{"HX1777","masaud100","921008"},
+							{"HX1777","Mas200","920000"},
+							{"HX1777","Masaud300","922222"}
 	
 						};
   }
